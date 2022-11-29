@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Commissioner:wght@400;500;700&family=Exo:wght@100&family=Inter:wght@400;700;800&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Outfit:wght@300;400;600&family=Overpass:wght@300;600&family=Plus+Jakarta+Sans:wght@500;800&family=Roboto+Serif:ital,opsz,wght@0,8..144,300;0,8..144,400;0,8..144,600;1,8..144,300&family=Roboto:wght@400;700;900&family=Rubik:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+:root{
+/* primary */
+--Soft-orange: hsl(35, 77%, 62%);
+--Soft-red: hsl(5, 85%, 63%);
+
+/* Neutral */
+--Off-white: hsl(36, 100%, 99%);
+--Grayish-blue: hsl(230, 4%, 72%);
+--Dark-grayish-blue: hsl(236, 13%, 42%);
+--Very-dark-blue: hsl(240, 100%, 5%);
+--Weights: 400, 700, 800;
+font-family: 'Inter', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: whitesmoke;
+}
+nav{
+    color: #000;
+}
+a{
+    color: var(--Dark-grayish-blue);
+    font-weight: 400;
+    font-size: 15px;
+}
+a:hover,  a:focus{
+    text-decoration: none;
+    color: red;
+}
+img{
+    width: 100%;
+}
+.mobile-img{
+    width: 100%;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.hero-paragraph{
+    line-height: 1.7rem;
+    color: var(--Dark-grayish-blue)
+}
+button{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    background-color: var(--Soft-red);   
+    color: #fff; 
+}
+button:hover, button:focus{
+    background-color: var(--Very-dark-blue);
+}
+.hero-right-coloum{
+    background-color: var(--Very-dark-blue);
+    color: #fff;
+    line-height: 2rem;
+}
+h2{
+    color: var(--Soft-orange);
+}
+p{
+    font-size: 15px;
+}
+
+.text{
+    color: var(--Dark-grayish-blue);
+}
+hr{
+    background-color: var(--Dark-grayish-blue);
+}
+h4:hover, h4:focus{
+    color: var(--Soft-orange);
+}
+
+.mini-img{
+    width: 10px;
+    height: 100%;
+}
+.text-coloring{
+    color: var(--Grayish-blue);
+}
+.botoom-h{
+    font-weight: 800;
+}
+.botoom-h:hover, .botoom-h:focus{
+    color: var(--Soft-red);
+}
+
+
+.mobile-menu-items{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.437);
+    height: 100%;
+    display: none;
+}
+.mobile-menu-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 8rem 6rem 0 1rem;
+    z-index: 1; 
+    margin-right: 0rem;
+    
+}
+.menu-items{
+    margin-top: 1.7rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    position: relative;
+}
+.close-menu{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    z-index: 3;
+}
